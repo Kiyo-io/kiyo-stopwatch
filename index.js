@@ -1,9 +1,9 @@
 // Variables to call
 let title = document.getElementById("title");
 
-let seconds = 00;
-let tens = 00;
-let hours = 00;
+let seconds = 0o0;
+let tens = 0o0;
+let hours = 0o0;
 
 let appendHour = document.getElementById("hours");
 let appendMin = document.getElementById("tens");
@@ -13,11 +13,9 @@ let startBtn = document.getElementById("start");
 let stopBtn = document.getElementById("stop");
 let restartBtn = document.getElementById("restart");
 
-let copyright = document.getElementById("year");
-
 var Interval;
 
-let date = new Date().getFullYear();
+Date = new Date().getFullYear();
 
 startBtn.onclick = function () {
   clearInterval(Interval);
@@ -72,3 +70,7 @@ function startTimer() {
     }
   }
 }
+
+document
+  .getElementById("year")
+  .insertAdjacentText("beforeend", Date + ". Made with ✨ by Tishaya");
