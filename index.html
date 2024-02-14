@@ -3,22 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
-    <title>Kiyo Stopwatch</title>
+    <title >Kiyo Stopwatch</title>
   </head>
   <div id="container">
   <body>
-    <h1>STOP WATCH</h1>
+    <h1 id="title" class="noto-serif">STOP WATCH</h1>
     <p>
-      <span id="hours">00</span>:<span id="tens">00</span>:<span id="secs"
+      <span id="hours" class="yeseva-one-regular">00</span>:<span id="tens"class="yeseva-one-regular">00</span>:<span id="secs" class="yeseva-one-regular"
         >00</span
       >
     </p>
-    <button id="start"></button>
-    <button id="stop"></button>
-    <button id="restart"></button>
+    <div id="buttons">
+    <button id="start" class="yeseva-one-regular">Start</button>
+    <button id="stop" class="yeseva-one-regular">Stop</button>
+    <button id="restart" class="yeseva-one-regular">Restart</button>
   </div>
-    <footer>Copyright<span id="year"></span> Made with ✨ by Tishaya</footer>
+  </div>
+    <footer >Copyright<span id="year"></span> Made with ✨ by Tishaya</footer>
 
     <script src="index.js"></script>
   </body>
