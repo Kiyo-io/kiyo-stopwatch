@@ -38,7 +38,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 50px;
   text-align: center;
-
+  margin-top: 75px;
   justify-content: center;
 }
 #title {
@@ -95,11 +95,15 @@ footer {
 }
 
 @media (max-width: 320px) {
+  body {
+    background-color: #f2bed1;
+  }
   #container {
     margin-top: 75px;
     padding: 5px;
   }
   #title {
+    color: #f9f5f6;
     font-size: 20px;
     text-align: center;
   }
@@ -111,11 +115,18 @@ footer {
   }
 
   button {
+    color: #fdcedf;
+    background: #f8e8ee;
     font-size: 12px;
     width: 60px;
     height: 45px;
   }
+  button:hover {
+    background: #f9f5f6;
+    color: white;
+  }
   footer {
+    color: #f9f5f6;
     font-size: 10px;
   }
 }

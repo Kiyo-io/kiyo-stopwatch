@@ -73,4 +73,4 @@ function startTimer() {
 
 document
   .getElementById("year")
-  .insertAdjacentText("beforeend", Date + ". Made with ✨ by Tishaya");
+  .insertAdjacentText("beforeend", " " + Date + ". Made with ✨ by Tishaya");
