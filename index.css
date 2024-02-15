@@ -151,6 +151,30 @@ footer {
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
+  body {
+    background-color: #b1b2ff;
+  }
+  #title {
+    color: #eef1ff;
+  }
+  button {
+    background: #aac4ff;
+    color: #eef1ff;
+  }
+  button:hover {
+    background: #d2daff;
+  }
+  footer {
+    color: #eef1ff;
+  }
 }
 @media (min-width: 767px) and (max-width: 1200px) {
+  body {
+  }
+  button {
+  }
+  button:hover {
+  }
+  footer {
+  }
 }
