@@ -170,11 +170,20 @@ footer {
 }
 @media (min-width: 767px) and (max-width: 1200px) {
   body {
+    background-color: #71c9ce;
+  }
+  #title {
+    color: #e3fdfd;
   }
   button {
+    background: #cbf1f5;
+    color: #e3fdfd;
   }
   button:hover {
+    color: white;
+    background: #e3fdfd;
   }
   footer {
+    color: #e3fdfd;
   }
 }
