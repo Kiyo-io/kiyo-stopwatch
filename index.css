@@ -33,6 +33,9 @@ body {
   justify-content: center;
   align-items: center;
 } */
+#main-container {
+  height: 50dvh;
+}
 #container {
   display: grid;
   grid-template-columns: 1fr;
@@ -66,6 +69,7 @@ p {
 #tens,
 #secs {
   width: 10%;
+  min-inline-size: 15%;
 }
 #buttons {
   display: flex;
@@ -118,7 +122,12 @@ footer {
   p {
     font-size: 4rem;
   }
-
+  #hours,
+  #tens,
+  #secs {
+    width: 30%;
+    min-inline-size: 15%;
+  }
   button {
     color: #fdcedf;
     background: #f8e8ee;
@@ -153,6 +162,12 @@ footer {
   p {
     font-size: 70px;
   }
+  #hours,
+  #tens,
+  #secs {
+    width: 25%;
+    min-inline-size: 15%;
+  }
   button {
     font-size: 15px;
     width: 80px;
@@ -174,6 +189,12 @@ footer {
   #title {
     color: #eef1ff;
   }
+  #hours,
+  #tens,
+  #secs {
+    width: 20%;
+    min-inline-size: 15%;
+  }
   button {
     background: #aac4ff;
     color: #eef1ff;
@@ -191,6 +212,18 @@ footer {
   }
   #title {
     color: #e3fdfd;
+  }
+  #hours,
+  #tens,
+  #secs {
+    width: 15%;
+    min-inline-size: 15%;
+  }
+  #hours,
+  #tens,
+  #secs {
+    width: 25%;
+    min-inline-size: 15%;
   }
   button {
     background: #cbf1f5;
