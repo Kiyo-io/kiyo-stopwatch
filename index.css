@@ -62,6 +62,11 @@ p {
   color: whitesmoke;
   font-size: 10rem;
 }
+#hours,
+#tens,
+#secs {
+  width: 10%;
+}
 #buttons {
   display: flex;
   flex-direction: row;
